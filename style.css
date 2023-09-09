@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
- htl{
+ html{
     font-size: 62%;
 
  }
@@ -11,7 +11,7 @@
     padding: 0 4.8rem;
     height: 10rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: black;
  }
@@ -32,4 +32,35 @@
     transition: all 0.3s;
     font-size: 2rem;
     font-weight: 500;
+ }
+
+ .section_hero,
+ .section_services{
+    padding: 9.6rem 0;
+    background-color: aquamarine;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    font-size: 3rem;
+    font-weight: 600;
+    color: white;
+ }
+ .section_services{
+    background: blueviolet;
+ }
+ .mobile_navbar_btn{
+    /* display: none; */
+    background-color: white;
+    /* background: transparent; */
+    cursor: pointer;
+ }
+ .fa-solid{
+    width: 4rem;
+    height: 4rem;
+    color: #212529;
+ }
+ .fa-xmark{
+    display: none;
  }
